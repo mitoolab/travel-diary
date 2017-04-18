@@ -34,18 +34,26 @@
 var header = document.querySelector('.header');
 
 
-// header ScrollMagic opacity
+// ScrollMagic
 (function(global){
 	'use strict';
 
 	var ctrl = new ScrollMagic.Controller();
 
 	// 핀제어
-	var carousel_pin = new ScrollMagic.Scene({
+	// var carousel_pin = new ScrollMagic.Scene({
+	// 	'triggerElement': '.video',
+	// 	'triggerHook': 0,
+	// });
+
+	var header_trans = new ScrollMagic.Scene({
 		'triggerElement': '.video',
 		'triggerHook': 0,
-	});
-
+		'offset': 50,
+	})
+		.setClassToggle('.header', 'trans')
+		.addIndicators()
+		.addTo(ctrl);
 
 	var scene_list = '.video, .intro, #albums, .info'.split(', ');
 
@@ -60,4 +68,4 @@ var header = document.querySelector('.header');
 		.addTo(ctrl);
 	});
 
-})(this, this.ScrollMagic);
+})(ScrollMagic);

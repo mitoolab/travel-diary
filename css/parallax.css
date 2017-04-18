@@ -9,6 +9,14 @@
  */
 
 
+.header {
+	transition: all 0.5s ease;
+}
+
+.header.trans {
+  transform: translateY(-60px);
+	transition: all 0.5s ease;
+}
 
 .video {
 	opacity: 0;
