@@ -154,17 +154,14 @@ function playControl() {
   // }
 }
 
+////////////
+// jQuery //
+////////////
 
 // video icon
-// $('.control').on('click', function() {
-//   $(this).toggleClass('pause play');
-// });
 $('.video-main').on('click', function() {
   $('.control').toggleClass('pause play');
 });
-
-
-
 
 // $(document).on('keyup', function(e) {
 //   if (e.which == 32) {
