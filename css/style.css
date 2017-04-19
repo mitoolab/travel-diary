@@ -73,7 +73,7 @@ fieldset {
 }
 
 .header-logo {
-  margin: 0px 10px 5px 20px;
+  margin: 0px 10px 5px 32px;
 }
 
 .header-logo img {
@@ -133,7 +133,7 @@ fieldset {
   display: inline-block;
   font-size: 0.63rem;
 	padding: 0.5rem;
-	margin-right: 20px;
+	margin-right: 62px;
 }
 
 /* ---------------- //Header ---------------- */

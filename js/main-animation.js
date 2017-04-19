@@ -55,7 +55,7 @@ var header = document.querySelector('.header');
 		.addIndicators()
 		.addTo(ctrl);
 
-	var scene_list = '.video, .intro, #albums, .info'.split(', ');
+	var scene_list = '.video, .intro, #albums'.split(', ');
 
 	scene_list.forEach(function(trigger_el_selector, idx) {
 		var scene = new ScrollMagic.Scene({
