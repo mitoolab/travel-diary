@@ -205,29 +205,9 @@ fieldset {
 
 .header-app-store:hover, .header-google-play:hover,
 .info-app-store:hover, .info-google-play:hover {
-	/*opacity: 0.8;*/
+	opacity: 0.6;
 }
 
-
-/*.header-app-store img, .header-google-play img {
-  height: 30px;
-  margin: 0 5px 0 5px;
-	vertical-align: top;
-}
-
-.header-app-store strong {
-	position: absolute;
-	top: 23px;
-	left: 50px;
-	font-size: 0.88rem;
-}
-
-.header-google-play strong {
-	position: absolute;
-	top: 23px;
-	left: 53px;
-	font-size: 0.88rem;
-}*/
 
 /* ---------------- //Video ---------------- */
 
@@ -398,11 +378,6 @@ fieldset {
 /* ---------------- //Albums ---------------- */
 
 /* ---------------- Info ---------------- */
-/*.info-item {
-	display: flex;
-	margin-top: -115px;
-}*/
-
 .info {
 	position: relative;
 	padding-top: 6.25rem;
@@ -453,26 +428,6 @@ fieldset {
   cursor: pointer;
   margin: 0 10px 0px 10px;
 }
-
-/*.info-app-store img, .info-google-play img {
-  height: 30px;
-  margin: 0 5px 0 5px;
-	vertical-align: top;
-}
-
-.info-app-store strong {
-	position: absolute;
-	top: 23px;
-	left: 50px;
-	font-size: 0.88rem;
-}
-
-.info-google-play strong {
-	position: absolute;
-	top: 23px;
-	left: 53px;
-	font-size: 0.88rem;
-}*/
 
 /* ---------------- //Info ---------------- */
 

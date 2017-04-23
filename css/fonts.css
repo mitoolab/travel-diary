@@ -11,11 +11,28 @@
 }
 
 .icon-heart:before { content: '\e800'; } /* '' */
-.icon-export:before { content: '\e801'; } /* '' */
-
 
 @font-face {
-  font-family: 'fontello-btn';
+  font-family: 'statistics';
+  src: url('../icon-font/map-stat-icon/fontello.eot?78436978');
+  src: url('../icon-font/map-stat-icon/fontello.eot?78436978#iefix') format('embedded-opentype'),
+       url('../icon-font/map-stat-icon/fontello.woff2?78436978') format('woff2'),
+       url('../icon-font/map-stat-icon/fontello.woff?78436978') format('woff'),
+       url('../icon-font/map-stat-icon/fontello.ttf?78436978') format('truetype'),
+       url('../icon-font/map-stat-icon/fontello.svg?78436978#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+.icon-heart-empty:before { content: '\e800'; } /* '' */
+.icon-globe-alt-outline:before { content: '\e801'; } /* '' */
+.icon-eye:before { content: '\e802'; } /* '' */
+.icon-calendar:before { content: '\e803'; } /* '' */
+.icon-camera:before { content: '\e804'; } /* '' */
+
+@font-face {
+
+font-family: 'fontello-btn';
   src: url('../icon-font/fontello-btn/font/fontello.eot?82771518');
   src: url('../icon-font/fontello-btn/font/fontello.eot?82771518#iefix') format('embedded-opentype'),
        url('../icon-font/fontello-btn/font/fontello.woff?82771518') format('woff'),
