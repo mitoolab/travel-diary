@@ -5,13 +5,13 @@ var input_email_sign_up,
     input_password_sign_up,
     input_confirm_password,
     button_sign_up,
-    email_sign_up_message, 
+    email_sign_up_message,
     password_sign_up_message,
     confirm_sign_up_message,
     input_email_sign_in,
     input_password_sign_in,
     button_sign_in,
-    email_sign_in_message, 
+    email_sign_in_message,
     password_sign_in_message;
 // get ref.
 // email 입력창
@@ -81,4 +81,3 @@ input_email_sign_in.onclick = function() {
 input_password_sign_in.onclick = function() {
   password_sign_in_message.style.display = "none";
 };
-

@@ -76,14 +76,14 @@
 								<p class="email-sign-in-message">E-mail를 입력하여 주십시오.</p>
 								<!-- input password -->
 								<input type="password" class="input-password-sign-in" name="password" aira-label="user password" placeholder="Password">
-								<p class="password-sign-in-message">비밀번호를 입력하여 주십시오.</p>
+								<p class="password-sign-in-message">비밀번호 8 ~ 12자리를 입력하여 주십시오.</p>
 								<!-- checkbox -->
 								<div class="checkbox-wrap">
 									<input type="checkbox" id="checkbox-save-email">
 									<label for="checkbox-save-email" class="checkbox-label">Remember me</label>
 								</div>
 								<!-- submit button -->
-								<button type="button" class="button-sign-in">Sign In</button>
+								<button type="submit" class="button-sign-in">Sign In</button>
 							</fieldset>
 						</form>
 					</div>
@@ -112,20 +112,20 @@
 							<p class="sns-promise">We promise never to share anything without your permission</p>
 						</div>
 						<!-- e-mail Sign In -->
-						<form action="" id="email-sign-up">
+						<form action="http://studydev.kr/api/users/" id="email-sign-up" method="post">
 							<fieldset class="form-inner-wrap">
 								<legend class="form-title">Sign Up with e-mail</legend>
 								<!-- input email -->
-								<input type="email" class="input-email-sign-up" name="email" aira-label="user e-mail" placeholder="E-mail" value="">
+								<input type="email" class="input-email-sign-up" name="username" aira-label="user e-mail" placeholder="E-mail" value="">
 								<p class="email-sign-up-message">E-mail를 입력하여 주십시오.</p>
 								<!-- input password -->
 								<input type="password" class="input-password-sign-up" name="password" aira-label="user password" placeholder="Password">
-								<p class="password-sign-up-message">비밀번호를 입력하여 주십시오.</p>
+								<p class="password-sign-up-message">비밀번호 8 ~ 12자리를 입력하여 주십시오.</p>
 								<!-- input confirm password -->
 								<input type="password" class="input-confirm-password" name="confirmpassword" aira-label="confirm password" placeholder="Confirm Password">
 								<p class="confirm-sign-up-message">비밀번호를 확인하여 주십시오.</p>
 								<!-- submit button -->
-								<button type="button" class="button-sign-up">Sign Up</button>
+								<button type="submit" class="button-sign-up">Sign Up</button>
 							</fieldset>
 						</form>
 					</div>
@@ -437,8 +437,10 @@
 
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
-	<script src="../js/main-animation.js"></script>
+	<script src="../js/main-album.js"></script>
+	<script src="../js/main-scrollMagic.js"></script>
+	<script src="../js/main-scrollTop.js"></script>
 	<script src="../js/main-page.js"></script>
-	<script src="../js/sign.js"></script>
+	<script src="../js/main-valueCheck.js"></script>
 </body>
 </html>
