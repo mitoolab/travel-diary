@@ -53,10 +53,3 @@ button_sign_in.onclick = function(e) {
   });
 
 };
-
-
-//엔터 막음
-function captureReturnKey(e) {
-    if(e.keyCode==13 && e.srcElement.type != 'textarea')
-    return false; 
-}
