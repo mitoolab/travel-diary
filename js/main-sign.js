@@ -8,7 +8,7 @@ button_sign_up.onclick = function(e) {
   var sign_up_password = document.querySelector(".input-password-sign-up");
 
   // 통신
-  axios.post('/api/users/', {
+  axios.post('https://api.studydev.kr/users/', {
     "username": sign_up_email,
     "password": sign_up_password,
     "user_type": "NORMAL"
@@ -29,16 +29,16 @@ button_sign_up.onclick = function(e) {
 // 로그인
 var button_sign_in = document.querySelector(".button-sign-in");
 
-button_sign_up.onclick = function(e) {
+button_sign_in.onclick = function(e) {
   var sign_in_email = document.querySelector(".input-email-sign-in");
   // sign_up_email.value
   // console.log(sign_up_email.value);
   var sign_in_password = document.querySelector(".input-password-sign-in");
 
   // 통신
-  axios.post('/user/login/', {
-    "username": sign_up_email,
-    "password": sign_up_password,
+  axios.post('https://api.studydev.kr/user/login/', {
+    "username": sign_in_email,
+    "password": sign_in_password,
     "user_type": "NORMAL"
   })
   // 성공
@@ -53,3 +53,10 @@ button_sign_up.onclick = function(e) {
   });
 
 };
+
+
+//엔터 막음
+function captureReturnKey(e) {
+    if(e.keyCode==13 && e.srcElement.type != 'textarea')
+    return false; 
+}

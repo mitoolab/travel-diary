@@ -33,6 +33,7 @@ confirm_sign_up_message = document.querySelector('.confirm-sign-up-message');
 email_sign_in_message = document.querySelector('.email-sign-in-message');
 password_sign_in_message = document.querySelector('.password-sign-in-message');
 
+
 // sign up
 // 내용 작성 검증
 button_sign_up.onclick = function() {
