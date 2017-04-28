@@ -1,3 +1,5 @@
+
+
 // 회원가입
 var button_sign_up = document.querySelector(".button-sign-up");
 
@@ -8,7 +10,8 @@ button_sign_up.onclick = function(e) {
   var sign_up_password = document.querySelector(".input-password-sign-up");
 
   // 통신
-  axios.post('https://api.studydev.kr/users/', {
+  // axios.post('https://api.studydev.kr/users/', {
+   axios.post('https://record-3209b.firebaseio.com', {
     "username": sign_up_email,
     "password": sign_up_password,
     "user_type": "NORMAL"
@@ -25,6 +28,7 @@ button_sign_up.onclick = function(e) {
   });
 
 };
+
 
 // 로그인
 var button_sign_in = document.querySelector(".button-sign-in");
