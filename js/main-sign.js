@@ -11,7 +11,7 @@ button_sign_up.onclick = function(e) {
 
   // 통신
   // axios.post('https://api.studydev.kr/users/', {
-   axios.post('https://record-3209b.firebaseio.com', {
+   axios.post('https://api.studydev.kr/users/', {
     "username": sign_up_email,
     "password": sign_up_password,
     "user_type": "NORMAL"
