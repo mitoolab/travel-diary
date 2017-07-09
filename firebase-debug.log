@@ -1,0 +1,36 @@
+[debug] [2017-07-08T07:54:39.231Z] ----------------------------------------------------------------------
+[debug] [2017-07-08T07:54:39.233Z] Command:      /Users/etpark/.nvm/versions/node/v6.9.4/bin/node /Users/etpark/.nvm/versions/node/v6.9.4/bin/firebase serve
+[debug] [2017-07-08T07:54:39.234Z] CLI Version:  3.9.1
+[debug] [2017-07-08T07:54:39.234Z] Platform:     darwin
+[debug] [2017-07-08T07:54:39.234Z] Node Version: v6.9.4
+[debug] [2017-07-08T07:54:39.234Z] Time:         Sat Jul 08 2017 16:54:39 GMT+0900 (KST)
+[debug] [2017-07-08T07:54:39.234Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-08T07:54:39.245Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-08T07:54:39.245Z] > authorizing via signed-in user
+[debug] [2017-07-08T07:54:39.247Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-07-08T07:54:39.247Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/Uc80tQZWEDCoxSBHrTILeKP0x8bqzIs_w6dYgpdZ_OY',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Jul 08 2017 16:54:39 GMT+0900 (KST)
+[debug] [2017-07-08T07:54:39.541Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-08T07:54:39.544Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/record-3209b  
+ Sat Jul 08 2017 16:54:39 GMT+0900 (KST)
+[debug] [2017-07-08T07:54:40.551Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-08T07:54:40.552Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/record-3209b/tokens  
+ Sat Jul 08 2017 16:54:40 GMT+0900 (KST)
+[debug] [2017-07-08T07:54:41.365Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/etpark/Desktop/github/traver-diary'...
+[info] 
+[debug] [2017-07-08T07:54:41.369Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/record-3209b  
+ Sat Jul 08 2017 16:54:41 GMT+0900 (KST)
+[debug] [2017-07-08T07:54:42.504Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-08T07:54:42.505Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/388861185550/clients/_:getWebAppConfig  
+ Sat Jul 08 2017 16:54:42 GMT+0900 (KST)
+[debug] [2017-07-08T07:54:44.107Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-08T07:54:44.127Z] TypeError: Cannot read property 'public' of undefined
+[error] 
+[error] Error: An unexpected error has occurred.
